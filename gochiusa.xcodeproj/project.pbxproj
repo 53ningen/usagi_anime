@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF6D376E1C2730D40035E80E /* gochiusa.h in Headers */ = {isa = PBXBuildFile; fileRef = FF6D376D1C2730D40035E80E /* gochiusa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF6D37751C2730D50035E80E /* gochiusa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6D376A1C2730D40035E80E /* gochiusa.framework */; };
+		FF6D377A1C2730D50035E80E /* gochiusaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6D37791C2730D50035E80E /* gochiusaTests.swift */; };
+		FF6D37851C2731020035E80E /* ご注文はうさぎですか.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6D37841C2731020035E80E /* ご注文はうさぎですか.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF6D37761C2730D50035E80E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF6D37611C2730D40035E80E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF6D37691C2730D40035E80E;
+			remoteInfo = gochiusa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF6D376A1C2730D40035E80E /* gochiusa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = gochiusa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF6D376D1C2730D40035E80E /* gochiusa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gochiusa.h; sourceTree = "<group>"; };
+		FF6D376F1C2730D40035E80E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF6D37741C2730D50035E80E /* gochiusaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gochiusaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF6D37791C2730D50035E80E /* gochiusaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gochiusaTests.swift; sourceTree = "<group>"; };
+		FF6D377B1C2730D50035E80E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF6D37841C2731020035E80E /* ご注文はうさぎですか.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ご注文はうさぎですか.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF6D37661C2730D40035E80E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6D37711C2730D50035E80E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6D37751C2730D50035E80E /* gochiusa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF6D37601C2730D40035E80E = {
+			isa = PBXGroup;
+			children = (
+				FF6D376C1C2730D40035E80E /* gochiusa */,
+				FF6D37781C2730D50035E80E /* gochiusaTests */,
+				FF6D376B1C2730D40035E80E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF6D376B1C2730D40035E80E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF6D376A1C2730D40035E80E /* gochiusa.framework */,
+				FF6D37741C2730D50035E80E /* gochiusaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF6D376C1C2730D40035E80E /* gochiusa */ = {
+			isa = PBXGroup;
+			children = (
+				FF6D376D1C2730D40035E80E /* gochiusa.h */,
+				FF6D376F1C2730D40035E80E /* Info.plist */,
+				FF6D37841C2731020035E80E /* ご注文はうさぎですか.swift */,
+			);
+			path = gochiusa;
+			sourceTree = "<group>";
+		};
+		FF6D37781C2730D50035E80E /* gochiusaTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF6D37791C2730D50035E80E /* gochiusaTests.swift */,
+				FF6D377B1C2730D50035E80E /* Info.plist */,
+			);
+			path = gochiusaTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FF6D37671C2730D40035E80E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6D376E1C2730D40035E80E /* gochiusa.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FF6D37691C2730D40035E80E /* gochiusa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF6D377E1C2730D50035E80E /* Build configuration list for PBXNativeTarget "gochiusa" */;
+			buildPhases = (
+				FF6D37651C2730D40035E80E /* Sources */,
+				FF6D37661C2730D40035E80E /* Frameworks */,
+				FF6D37671C2730D40035E80E /* Headers */,
+				FF6D37681C2730D40035E80E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gochiusa;
+			productName = gochiusa;
+			productReference = FF6D376A1C2730D40035E80E /* gochiusa.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FF6D37731C2730D50035E80E /* gochiusaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF6D37811C2730D50035E80E /* Build configuration list for PBXNativeTarget "gochiusaTests" */;
+			buildPhases = (
+				FF6D37701C2730D50035E80E /* Sources */,
+				FF6D37711C2730D50035E80E /* Frameworks */,
+				FF6D37721C2730D50035E80E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF6D37771C2730D50035E80E /* PBXTargetDependency */,
+			);
+			name = gochiusaTests;
+			productName = gochiusaTests;
+			productReference = FF6D37741C2730D50035E80E /* gochiusaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF6D37611C2730D40035E80E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = gomi;
+				TargetAttributes = {
+					FF6D37691C2730D40035E80E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					FF6D37731C2730D50035E80E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = FF6D37641C2730D40035E80E /* Build configuration list for PBXProject "gochiusa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF6D37601C2730D40035E80E;
+			productRefGroup = FF6D376B1C2730D40035E80E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF6D37691C2730D40035E80E /* gochiusa */,
+				FF6D37731C2730D50035E80E /* gochiusaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF6D37681C2730D40035E80E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6D37721C2730D50035E80E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF6D37651C2730D40035E80E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6D37851C2731020035E80E /* ご注文はうさぎですか.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6D37701C2730D50035E80E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6D377A1C2730D50035E80E /* gochiusaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF6D37771C2730D50035E80E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF6D37691C2730D40035E80E /* gochiusa */;
+			targetProxy = FF6D37761C2730D50035E80E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FF6D377C1C2730D50035E80E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF6D377D1C2730D50035E80E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF6D377F1C2730D50035E80E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = gochiusa/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.gomi.gochiusa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF6D37801C2730D50035E80E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = gochiusa/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.gomi.gochiusa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FF6D37821C2730D50035E80E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = gochiusaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.gomi.gochiusaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF6D37831C2730D50035E80E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = gochiusaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.gomi.gochiusaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF6D37641C2730D40035E80E /* Build configuration list for PBXProject "gochiusa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF6D377C1C2730D50035E80E /* Debug */,
+				FF6D377D1C2730D50035E80E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF6D377E1C2730D50035E80E /* Build configuration list for PBXNativeTarget "gochiusa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF6D377F1C2730D50035E80E /* Debug */,
+				FF6D37801C2730D50035E80E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF6D37811C2730D50035E80E /* Build configuration list for PBXNativeTarget "gochiusaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF6D37821C2730D50035E80E /* Debug */,
+				FF6D37831C2730D50035E80E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF6D37611C2730D40035E80E /* Project object */;
+}
